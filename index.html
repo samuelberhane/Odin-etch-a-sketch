@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Etch-a-Sketch</h1>
+    <div class="wrapper">
+      <div class="controls">
+        <div class="color">
+          <p>Pen Color:</p>
+          <input type="color" id="pen-color" />
+        </div>
+        <div class="color">
+          <p>Background Color:</p>
+          <input type="color" id="bg-color" />
+        </div>
+        <button class="eraser">Eraser</button>
+        <p class="erase">Eraser Off.</p>
+        <button class="clear">Clear</button>
+        <div class="grid">
+          <input id="grid-size" type="range" min="1" max="100" />
+        </div>
+        <div class="size">Grid-Size: 56&times;56</div>
+      </div>
+      <div class="board">
+        <div class="container">
+          <h1>Change Grid-size to Start!</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
